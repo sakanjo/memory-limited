@@ -1,0 +1,30 @@
+{
+    "name": "sakanjo/memory-limited",
+    "description": "A package to limit the memory upon a function call.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+	    "php",
+	    "ini",
+	    "php_ini"
+    ],
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "SaKanjo\\MemoryLimited\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salah Kanjo",
+            "email": "dev.salah.kanjo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/pint": "^1.13"
+    }
+}
